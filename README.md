@@ -40,8 +40,8 @@ The project uses a collection of CSV files containing network traffic data from 
 
 **Files:**
 
-train_models.py: Script for training the models and saving them.
+model.py: Script for training the models and saving them.
 
-predict_attack.py: Script for loading the saved models and making predictions on new data.
+main.py: Script for loading the saved models and making predictions on new data.
 
 scaler.pkl, onehot_encoder.pkl, random_forest_model.pkl, naive_bayes_classifier_model.pkl, decision_tree_classifier_model.pkl, kneighbors_classifier_model.pkl, logistic_regression_model.pkl, autoencoder_model.h5: Saved preprocessing objects and trained models.
