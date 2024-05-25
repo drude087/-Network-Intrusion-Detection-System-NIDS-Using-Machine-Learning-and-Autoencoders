@@ -3,6 +3,7 @@
 This project implements a Network Intrusion Detection System (NIDS) using multiple machine learning models and an autoencoder neural network. The goal of this system is to analyze network traffic data and accurately identify potential cyber attacks. The project involves data preprocessing, feature selection, model training, and evaluation, as well as a prediction script that can be used to classify new network traffic data.
 
 **Features**
+
 **Data Preprocessing:** Clean and preprocess network traffic data to ensure high-quality input for model training.
 
 **Feature Selection:** Use Recursive Feature Elimination (RFE) and Random Forest feature importance to select the most relevant features.
@@ -13,7 +14,8 @@ This project implements a Network Intrusion Detection System (NIDS) using multip
 
 **Prediction:** Use trained models to predict and classify new network traffic data as either an attack or normal traffic.
 
-Datasets
+**Datasets:**
+
 The project uses a collection of CSV files containing network traffic data from various scenarios including normal operations and different types of cyber attacks. These datasets are concatenated and cleaned to form a single comprehensive dataset for training and evaluation.
 
 **Implementation Details**
@@ -36,7 +38,8 @@ The project uses a collection of CSV files containing network traffic data from 
 
 **Prediction Script:** Provide a separate script to load the saved models and preprocessing objects, preprocess new data, and make predictions indicating whether each sample is an attack or normal traffic.
 
-Files
+**Files:**
+
 train_models.py: Script for training the models and saving them.
 
 predict_attack.py: Script for loading the saved models and making predictions on new data.
