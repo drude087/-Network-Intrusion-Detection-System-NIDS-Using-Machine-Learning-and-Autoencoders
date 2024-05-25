@@ -1,4 +1,4 @@
-# -Network-Intrusion-Detection-System-NIDS-Using-Machine-Learning-and-Autoencoders
+# Network-Intrusion-Detection-System-NIDS-Using-Machine-Learning-and-Autoencoders
 **Project Description**
 This project implements a Network Intrusion Detection System (NIDS) using multiple machine learning models and an autoencoder neural network. The goal of this system is to analyze network traffic data and accurately identify potential cyber attacks. The project involves data preprocessing, feature selection, model training, and evaluation, as well as a prediction script that can be used to classify new network traffic data.
 
